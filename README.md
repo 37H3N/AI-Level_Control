@@ -1,6 +1,6 @@
 # AI-Enhanced PLC and Plant Systems Automation
 
-![Automation](https://github.com/tentypcic/level-controle-factoryIO/raw/main/images/automation.jpg)
+
 
 ## Overview
 
