@@ -1,5 +1,6 @@
 # AI-Enhanced PLC and Plant Systems Automation
 
+![level-control](https://github.com/37H3N/AI-Level_Control/assets/148967036/a2d138d0-5863-4500-90ff-1ab07a4d2308)
 
 
 ## Overview
