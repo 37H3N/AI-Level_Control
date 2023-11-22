@@ -29,19 +29,19 @@ Follow these steps to get started with the project:
 2. Install dependencies:
 
    ```bash
-   # Add instructions for installing any specific dependencies
+   # Download required automation software
    ```
 
 3. Configure the project settings:
 
    ```bash
-   # Add instructions for configuring the project
+   # Configuring the project parameters to suite your system.
    ```
 
 4. Run the automation system:
 
    ```bash
-   # Add instructions for running the system
+   # Run simulation
    ```
 
 ## Potential Advancements
