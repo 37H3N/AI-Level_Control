@@ -8,66 +8,72 @@ https://github.com/37H3N/AI-Level_Control/assets/148967036/b40486f5-04b4-4fd0-85
 
 ![level-control](https://github.com/37H3N/AI-Level_Control/assets/148967036/f92ba11a-08b3-4f76-92d0-f5def17af896)
 
-## Overview
+Project code in TIA Portal and model in FactoryIO.
 
-This repository contains an automation project that leverages Artificial Intelligence (AI) in Programmable Logic Controller (PLC) systems and plant control systems and extends its capabilities by incorporating advanced AI techniques for improved control and optimization.
+## Table of Contents
+- [Built With](#built-with)
+- [About The Project](#about-the-project)
+- [Features](#features)
+- [Project Tree](#project-tree)
+- [HMI Panel](#hmi-panel)
+- [Controller](#controller)
+- [How To Use](#how-to-use)
+  - [Factory IO](#factory-io)
+  - [TIA Portal](#tia-portal)
+  - [Version Control Interface](#version-control-interface)
+  - [SIMATIC Automation Compare Tool](#simatic-automation-compare-tool)
+- [License](#license)
+
+## Built With
+- Factory I/O
+- Siemens TIA Portal V17
+- SIMATIC S7-PLCSIM
+- SIMATIC Automation Compare Tool
+- GIT
+
+## About The Project
+This PLC program focuses on level control, with code developed in TIA Portal V17. The tank has been meticulously modeled in Factory IO's 3D simulation software.
+
+The project includes a simple automation system featuring a liquid tank with two pumps and a liquid level sensor. The HMI allows users to select the controller type, configure its settings, and visualize its operation on a graph.
 
 ## Features
+- **HMI Panel**
+- **On-Off Controller**
+- **PID Controller**
+- **Takagi-Sugeno Fuzzy-PI Controller**
+- **Neural Network NARX Controller**
+- **Disturbance**
 
-- **AI-Driven Control:** Utilize machine learning algorithms to enhance the decision-making process in PLC systems for more adaptive and intelligent control.
-  
-- **Enhanced Plant Systems Integration:** Improve the integration with plant systems, enabling seamless communication and coordination between different components.
+## Project Tree
+The program is structured in four layers, resembling object-oriented programming concepts. Each layer is responsible for a specific task.
 
-- **Real-time Monitoring:** Implement real-time monitoring features to provide insights into the performance of the automation system and identify areas for optimization.
+### HMI Panel
+The HMI provides essential information about tank level control, displaying pump and sensor status, operating mode, controller selection, and a waveform graph. Users can modify default controller settings through the HMI.
 
-- **User-friendly Interface:** Develop an intuitive user interface for easy configuration, monitoring, and control of the automation system.
+### Controller
+The program incorporates controllers written in SCL and LAD.
 
-## Getting Started
+- **Ramp**: In automation systems, ramp functions serve as common input signals for controllers or actuators, facilitating smooth starts, stops, or speed regulation of mechanical systems.
+- **On-Off**: An on-off controller with hysteresis, also known as a hysteresis controller, is a cost-effective control system turning the system on and off based on threshold values with added hysteresis to prevent rapid switching.
+- **PID**: The incremental PID algorithm is a variant of the classic PID control algorithm, focusing on the change or increment in input rather than its absolute value.
+- **TS (Takagi-Sugeno)**: The Takagi-Sugeno fuzzy PI controller adjusts proportional and integral gains based on current system conditions, using fuzzy logic.
+- **NARX**: The NARX neural control system, based on a feedforward neural network, models and controls nonlinear dynamical systems.
 
-Follow these steps to get started with the project:
+## How To Use
+To clone and run this application, ensure FactoryIO and TIA Portal (v16 and later) are installed on your computer.
 
-1. Clone the repository:
+### Factory IO
+1. Download the Factory IO scene.
+2. Move it to the default folder in `C:\Users\username\Documents\Factory IO\My Scenes`.
 
-   ```bash
-   git clone https://github.com/37H3N/AI-Level_Control
-   ```
+### TIA Portal
+- On TIA v17 and later: Download an archived version of the program and open it in TIA.
 
-2. Install dependencies:
+### Version Control Interface
+- On TIA v16 and later: Download the program template and open it in TIA.
 
-   ```bash
-   Download required automation software
-   ```
+```bash
+# Clone this repository into your workspace
+$ git clone 
 
-3. Configure the project settings:
-
-   ```bash
-   Configure the project parameters to suite your system.
-   ```
-
-4. Run the automation system:
-
-   ```bash
-   Run simulation
-   ```
-
-## Potential Advancements
-
-1. **Predictive Maintenance:** Implement predictive maintenance using AI to anticipate equipment failures and schedule maintenance activities proactively.
-
-2. **Energy Optimization:** Integrate energy optimization algorithms to minimize energy consumption while maintaining optimal system performance.
-
-3. **Fault Detection and Diagnosis:** Develop advanced algorithms for fault detection and diagnosis, enabling the system to identify and address issues in real-time.
-
-4. **Edge Computing Integration:** Explore the integration of edge computing to perform AI computations closer to the source of data, reducing latency and improving overall system responsiveness.
-
-5. **Cloud Connectivity:** Enable cloud connectivity for remote monitoring, control, and data analytics, allowing users to access and manage the system from anywhere.
-
-## Contribution Guidelines
-
-We welcome contributions from the community to enhance and extend the capabilities of this AI-enhanced PLC and plant systems automation project. Please refer to the [Contribution Guidelines](CONTRIBUTING.md) for more information on how to contribute.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE), which means you are free to use, modify, and distribute the code as long as you include the original copyright and license notice in any copy of the software or substantial portion of the software.
-
----
+# Use the Version Control Interface (VCI) in TIA to synchronize the program
