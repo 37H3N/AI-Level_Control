@@ -23,7 +23,7 @@ Follow these steps to get started with the project:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/ai-plc-automation.git
+   git clone https://github.com/your-username/ai-plc-automation.git](https://github.com/37H3N/AI-Level_Control
    ```
 
 2. Install dependencies:
