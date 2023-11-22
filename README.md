@@ -65,5 +65,3 @@ We welcome contributions from the community to enhance and extend the capabiliti
 This project is licensed under the [MIT License](LICENSE), which means you are free to use, modify, and distribute the code as long as you include the original copyright and license notice in any copy of the software or substantial portion of the software.
 
 ---
-
-Feel free to use this template for your GitHub repository and customize it according to your project's specific details and requirements.
