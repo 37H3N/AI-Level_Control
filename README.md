@@ -18,17 +18,14 @@ Project code in TIA Portal and model in FactoryIO.
 - [HMI Panel](#hmi-panel)
 - [Controller](#controller)
 - [How To Use](#how-to-use)
-  - [Factory IO](#factory-io)
-  - [TIA Portal](#tia-portal)
-  - [Version Control Interface](#version-control-interface)
-  - [SIMATIC Automation Compare Tool](#simatic-automation-compare-tool)
+- [Factory IO](#factory-io)
+- [TIA Portal](#tia-portal)
 - [License](#license)
 
 ## Built With
 - Factory I/O
 - Siemens TIA Portal V17
 - SIMATIC S7-PLCSIM
-- SIMATIC Automation Compare Tool
 - GIT
 
 ## About The Project
@@ -62,18 +59,4 @@ The program incorporates controllers written in SCL and LAD.
 ## How To Use
 To clone and run this application, ensure FactoryIO and TIA Portal (v16 and later) are installed on your computer.
 
-### Factory IO
-1. Download the Factory IO scene.
-2. Move it to the default folder in `C:\Users\username\Documents\Factory IO\My Scenes`.
 
-### TIA Portal
-- On TIA v17 and later: Download an archived version of the program and open it in TIA.
-
-### Version Control Interface
-- On TIA v16 and later: Download the program template and open it in TIA.
-
-```bash
-# Clone this repository into your workspace
-$ git clone 
-
-# Use the Version Control Interface (VCI) in TIA to synchronize the program
