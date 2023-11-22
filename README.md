@@ -4,7 +4,7 @@
 
 ## Overview
 
-This repository contains an automation project that leverages Artificial Intelligence (AI) in Programmable Logic Controller (PLC) systems and plant control systems. The project is based on the initial work found at [level-controle-factoryIO](https://github.com/tentypcic/level-controle-factoryIO) and extends its capabilities by incorporating advanced AI techniques for improved control and optimization.
+This repository contains an automation project that leverages Artificial Intelligence (AI) in Programmable Logic Controller (PLC) systems and plant control systems and extends its capabilities by incorporating advanced AI techniques for improved control and optimization.
 
 ## Features
 
