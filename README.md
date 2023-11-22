@@ -1,8 +1,6 @@
 # AI-Enhanced PLC and Plant Systems Automation
 
 
-
-
 https://github.com/37H3N/AI-Level_Control/assets/148967036/b40486f5-04b4-4fd0-854d-73ce47e7b601
 
 
@@ -57,7 +55,7 @@ The program incorporates controllers written in SCL and LAD.
 - **NARX**: The NARX neural control system, based on a feedforward neural network, models and controls nonlinear dynamical systems.
 
 ## How To Use
-To clone and run this application, ensure FactoryIO and TIA Portal (v16 and later) are installed on your computer.
+Follow the PDF and ensure FactoryIO and TIA Portal (v16 and later) are installed on your computer.
 
 # Future Development
 
